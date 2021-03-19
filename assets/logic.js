@@ -1,7 +1,7 @@
 var time = moment();
 
 $(document).ready(function () {
-  // display current date at top in div id"currentday
+  // display current date at top in div id currentDay
   var currentDate = moment().format("dddd, MMM Do YYYY");
   $("#currentDay").html(currentDate);
 
@@ -29,8 +29,7 @@ $(document).ready(function () {
 
   function hourTracker() {
     //get current number of hours.
-    var currentHour = moment().hour(); // use of moment.js
-
+    var currentHour = moment().hour(); 
     // go over the time blocks
     $(".time-block").each(function () {
       var blockHour = parseInt($(this).attr("id").split("hour")[1]);

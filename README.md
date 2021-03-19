@@ -6,7 +6,7 @@ This is a daily planner for planning your work day hour by hour.  It ranges from
 
 To use this planner simply load it and begin entering tasks!
 
-# Author
+## Author
 Arthur Bates
 
 ![myDailyPlanner](./assets/planner.png)
