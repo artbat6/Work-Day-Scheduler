@@ -4,6 +4,8 @@ This is a daily planner for planning your work day hour by hour.  It ranges from
 
 ## Installation
 
+https://artbat6.github.io/Work-Day-Scheduler
+
 To use this planner simply load it and begin entering tasks!
 
 ## Author
