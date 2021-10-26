@@ -80,3 +80,76 @@ body {
     align-items: center;
     margin-bottom: 30px;
   }
+
+  @media only screen and (max-width: 1000px) {
+
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .hour {
+      text-align: left;
+      font-size: 1em;
+    }
+  @media only screen and (max-width: 770px) {
+
+      .container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .description{
+        width: 30%;
+        white-space: pre-wrap;
+      }
+  
+      .hour {
+        padding: 0;
+        width:20%;
+        text-align: left;
+        font-size: 1em;
+      }
+
+      .btn {
+        padding: 0;
+        width: 30%;
+      }
+}
+@media (max-width: 575.98px) { 
+  .time-block {
+    justify-content: space-between;
+
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  .lead {
+    font-size: 1em;
+  }
+
+  #currentDay {
+    font-size: 1.5em;
+  }
+
+  .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;
+    width: 90%;
+    }
+
+    .description {
+      white-space: pre-wrap;
+      width: 50%;
+    }
+}
